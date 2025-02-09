@@ -63,4 +63,11 @@ console.log(search);
 function calculateTax(amount, taxRate){
     return amount * taxRate
 }
-console.log(`Tax: ${calculateTax(500, 0.2)}`);
+console.log(`Tax: $${calculateTax(500, 0.2)}`);
+
+//Task 9 - Discount Application
+
+function applyDiscount(price, discount){
+    return price * discount
+}
+console.log(`Discounted Price: $${applyDiscount(500, 0.9)}`);
