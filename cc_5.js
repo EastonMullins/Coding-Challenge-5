@@ -37,3 +37,9 @@ console.log(cartItems);
 let prices = [100, 200, 300];
 let discountedPrices = prices.map(price => price * 0.9);
 console.log("Discounted Price: ", discountedPrices);
+
+//Task 5 - Product Availability
+
+let inventory = [14, 3, 22, 0, 31];
+let availability = inventory.filter((stock) => stock > 0); //Removes inventory with 0 valuie
+console.log(availability);
