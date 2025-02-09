@@ -31,3 +31,9 @@ cartItems.pop(); //Removed Sweet Tea
 cartItems.unshift("Lemonade"); //Added Lemonade
 cartItems.shift(); //Removed Lemonade
 console.log(cartItems);
+
+//Task 4 - Price Adjustments
+
+let prices = [100, 200, 300];
+let discountedPrices = prices.map(price => price * 0.9);
+console.log("Discounted Price: ", discountedPrices);
