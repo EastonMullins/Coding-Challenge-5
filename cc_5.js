@@ -53,6 +53,14 @@ let sum = sales.reduce((total, currentValue) => {
 console.log(sum);
 
 //Task 7 - Customer Search
+
 let customers = ["Alice", "Bob", "Charlie", "David"]
 let search = customers.find((name) => name == "Charlie");
 console.log(search);
+
+//Task 8 - Tax Calculation
+
+function calculateTax(amount, taxRate){
+    return amount * taxRate
+}
+console.log(`Tax: ${calculateTax(500, 0.2)}`);
