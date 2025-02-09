@@ -71,3 +71,8 @@ function applyDiscount(price, discount){
     return price * discount
 }
 console.log(`Discounted Price: $${applyDiscount(500, 0.9)}`);
+
+//Task 10 - Loyalty Points
+
+const calculatePoints = (amount) => amount * 0.1;
+console.log(`Points Earned: ${calculatePoints(200)}`);
