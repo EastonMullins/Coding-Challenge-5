@@ -22,3 +22,12 @@ let order = {
     }
 }
 order.displayOrder();
+
+//Task 3 - Shopping Cart
+
+let cartItems = ["Soda", "Water", "Gatorade"];
+cartItems.push("Sweet Tea"); // Added Sweet Tea
+cartItems.pop(); //Removed Sweet Tea
+cartItems.unshift("Lemonade"); //Added Lemonade
+cartItems.shift(); //Removed Lemonade
+console.log(cartItems);
