@@ -43,3 +43,11 @@ console.log("Discounted Price: ", discountedPrices);
 let inventory = [14, 3, 22, 0, 31];
 let availability = inventory.filter((stock) => stock > 0); //Removes inventory with 0 valuie
 console.log(availability);
+
+//Task 6 - Revenue Calculation
+
+let sales = [500, 300, 200, 400];
+let sum = sales.reduce((total, currentValue) => {
+    return total + currentValue;
+});
+console.log(sum);
