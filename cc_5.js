@@ -51,3 +51,8 @@ let sum = sales.reduce((total, currentValue) => {
     return total + currentValue;
 });
 console.log(sum);
+
+//Task 7 - Customer Search
+let customers = ["Alice", "Bob", "Charlie", "David"]
+let search = customers.find((name) => name == "Charlie");
+console.log(search);
